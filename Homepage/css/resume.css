@@ -1,0 +1,32 @@
+
+#topr{
+    margin: 0 auto; 
+    text-align: center;
+}
+
+nav {
+    margin-top: 80px; /* Adjust margin to push the navigation list up */
+}
+
+
+nav ul {
+    list-style-type: none;
+   
+}
+
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    display: inline-block; /* Allows padding to affect element size */
+    padding: 10px 20px; /* Larger padding for bigger touch targets */
+    font-size: 40px; /* Larger font size for readability */
+    color: rgb(110, 110, 110); /* Example text color */
+    text-decoration: none; /* Removes underline */
+    background-color: rgba(196, 196, 196, 0.226);
+
+}
+nav ul li a:hover {
+    background-color: #0084ff62;
+
+}
